@@ -1,0 +1,31 @@
+# Ignore compiled C binaries
+C/Colleen
+C/Grace
+C/Grace_kid
+C/Sully
+C/*.o
+
+# Ignore compiled ASM binaries and object files
+ASM/Colleen
+ASM/Grace
+ASM/Grace_kid
+ASM/Sully
+ASM/*.o
+
+# Ignore temporary output files from tests
+ASM/out_*
+C/out_*
+
+# Ignore editor backups / swap files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Ignore compiled files from GCC and NASM
+*.exe
+*.obj
+*.out
+
+# Ignore any core dumps
+core
